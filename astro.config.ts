@@ -7,4 +7,5 @@ import netlify from "@astrojs/netlify";
 export default defineConfig({
   integrations: [qwikdev()],
   adapter: netlify(),
+  output: 'server',
 });
